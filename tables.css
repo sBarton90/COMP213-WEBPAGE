@@ -1,0 +1,57 @@
+#allPage{
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+}
+body{
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+}
+p {
+  padding: 5px;
+}
+#productPicture{
+  float: left;
+  padding: 10px;
+}
+#homePage{
+  text-align: right;
+  font-size: small;
+}
+.textLeft{
+  text-align: left;
+  padding-left: 150px;
+  font-size: small;
+}
+.onlyTextLeft{
+  text-align: left;
+}
+.textCenter{
+  text-align: center;
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+table{
+  border: 2px solid #225566;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+td, th { padding: 0.5em;
+         border: 2px solid #225566;
+         text-align: center; }
+hr{
+  border: 2px solid #225566;
+}
+tr:nth-of-type(odd){
+  background-color: #667788;
+}
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
