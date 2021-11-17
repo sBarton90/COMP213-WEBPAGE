@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Shane Barton - 301210825 -->
+<head>
+<title>Continuing Education Form</title>
+<meta charset="utf-8">
+<link href="assignment4.css" rel="stylesheet">
+</head>
+<body>
+  <h1><a href="https://centennialcollege.ca"><img src="collegebannerimage.png" alt="College Banner" width="1000" height="150"></a></h1>
+  <hr><br><br>
+<fieldset>
+  <h2>Centennial College</h2>
+  <h3>Continuing Education Course/Instructor Evaluation</h3>
+  <p>Please read each statement carefully and consider each one individually. Use the <b>computer card</b> to make your choice
+    (use a pencil to fill in the space). Give only <b>one answer</b> for each question.</p>
+  <form>
+    <label><b>Course Name/Code:</b> <input type="text" name="course" id="course" size="100"></label><br><br>
+    <label><b>Semester: </b><select size="1" name="semester" id="semester">
+      <option value="Fall">Fall</option></label>
+      <option value="Winter">Winter</option></label>
+      <option value="Spring/Summer">Spring/Summer</option></label></select>
+    <label><b>&emsp;&emsp;&emsp;Year: </b><input type="text" name="year" id="year" maxlength="4" size="4"></label>
+
+    <h4>Instructor</h4>
+    How would you rate your instructor's:<br><br>
+    1. <b>Knowledge</b> of subject?<br><br>
+      <input type="radio" name="q1" id="q1" value="Yes"> Excellent &emsp;&emsp;
+      <input type="radio" name="q1" id="q1" value="Yes"> Good &emsp;&emsp;
+      <input type="radio" name="q1" id="q1" value="Yes"> Fair &emsp;&emsp;
+      <input type="radio" name="q1" id="q1" value="Yes"> Not Satisfactory &emsp;&emsp;<br><br>
+    2. <b>Helpfulness?</b><br><br>
+      <input type="radio" name="q2" id="q2" value="Yes"> Excellent &emsp;&emsp;
+      <input type="radio" name="q2" id="q2" value="Yes"> Good &emsp;&emsp;
+      <input type="radio" name="q2" id="q2" value="Yes"> Fair &emsp;&emsp;
+      <input type="radio" name="q2" id="q2" value="Yes"> Not Satisfactory &emsp;&emsp;<br><br>
+    3. <b>Courtesy and respect</b> for all students?<br><br>
+      <input type="radio" name="q3" id="q3" value="Yes"> Excellent &emsp;&emsp;
+      <input type="radio" name="q3" id="q3" value="Yes"> Good &emsp;&emsp;
+      <input type="radio" name="q3" id="q3" value="Yes"> Fair &emsp;&emsp;
+      <input type="radio" name="q3" id="q3" value="Yes"> Not Satisfactory &emsp;&emsp;<br><br>
+    4. <b>Communication</b> skills?<br><br>
+      <input type="radio" name="q4" id="q4" value="Yes"> Excellent &emsp;&emsp;
+      <input type="radio" name="q4" id="q4" value="Yes"> Good &emsp;&emsp;
+      <input type="radio" name="q4" id="q4" value="Yes"> Fair &emsp;&emsp;
+      <input type="radio" name="q4" id="q4" value="Yes"> Not Satisfactory &emsp;&emsp;<br><br>
+    5. Overall <b>performance</b>?<br><br>
+    <input type="radio" name="q5" id="q5" value="Yes"> Excellent &emsp;&emsp;
+    <input type="radio" name="q5" id="q5" value="Yes"> Good &emsp;&emsp;
+    <input type="radio" name="q5" id="q5" value="Yes"> Fair &emsp;&emsp;
+    <input type="radio" name="q5" id="q5" value="Yes"> Not Satisfactory &emsp;&emsp;<br><br>
+
+    <h4>Course</h4>
+    6. How would you rate the <b>course material?</b><br><br>
+      <input type="radio" name="q6" id="q6" value="Yes"> Excellent &emsp;&emsp;
+      <input type="radio" name="q6" id="q6" value="Yes"> Good &emsp;&emsp;
+      <input type="radio" name="q6" id="q6" value="Yes"> Fair &emsp;&emsp;
+      <input type="radio" name="q6" id="q6" value="Yes"> Not Satisfactory &emsp;&emsp;<br><br>
+    7. How much did this course meet your <b>expectations</b>?<br><br>
+      <input type="radio" name="q7" id="q7" value="Yes"> Excellent &emsp;&emsp;
+      <input type="radio" name="q7" id="q7" value="Yes"> Good &emsp;&emsp;
+      <input type="radio" name="q7" id="q7" value="Yes"> Fair &emsp;&emsp;
+      <input type="radio" name="q7" id="q7" value="Yes"> Not Satisfactory &emsp;&emsp;<br><br>
+    8. How would you rate this course (<b>overall</b>)?<br><br>
+      <input type="radio" name="q8" id="q8" value="Yes"> Excellent &emsp;&emsp;
+      <input type="radio" name="q8" id="q8" value="Yes"> Good &emsp;&emsp;
+      <input type="radio" name="q8" id="q8" value="Yes"> Fair &emsp;&emsp;
+      <input type="radio" name="q8" id="q8" value="Yes"> Not Satisfactory &emsp;&emsp;<br><br>
+
+    <h4>General Information</h4>
+    9. Was the <b>course outline</b> review/explained at the beginning of the course?<br><br>
+      <input type="radio" name="q9" id="q9" value="Yes"> Yes &emsp;&emsp;
+      <input type="radio" name="q9" id="q9" value="Yes"> No &emsp;&emsp;
+      <input type="radio" name="q9" id="q9" value="Yes"> Not Sure &emsp;&emsp;<br><br>
+    10. Would you <b>recommend</b> this course to a friend with the same interests?<br><br>
+      <input type="radio" name="q10" id="q10" value="Yes"> Yes &emsp;&emsp;
+      <input type="radio" name="q10" id="q10" value="Yes"> No &emsp;&emsp;
+      <input type="radio" name="q10" id="q10" value="Yes"> Not Sure &emsp;&emsp;<br><br>
+
+    <h4>Any Other Comments <small><small>(please use the back of the computer card or this paper if necessary)</small></small></h4>
+    <label for="comments">11. What is the <b>best thing</b> about this course?</label><br><br>
+      <textarea name="comments" id="comments" cols="100" rows="3"></textarea><br><br>
+    <label for="comments2">12. How could we <b>improve</b> this course?</label><br><br>
+      <textarea name="comments2" id="comments2" cols="100" rows="3"></textarea><br><br>
+    <label for="comments3">13. Other:</label><br><br>
+      <textarea name="comments3" id="comments3" cols="100" rows="3"></textarea><br><br>
+  </form>
+
+  <p id="endNote">Thank You! We pay attention to your feedback!<br>
+    Web: <a href="https://www.centennialcollege.ca/online-learning/">Centennial College</a>&emsp;&emsp;
+    Email: <a href="mailto:sbarton9@my.centennialcollege.ca">Shane Barton</a><p>
+</fieldset>
+</body>
+<br><br>
+<footer>
+<hr>
+<h5>&copy;&nbsp;&nbsp;&nbsp;Copyright Shane Barton - 301210825 - COMP213 - FALL 2021</h6>
+<hr>
+</footer>
+
+</html>

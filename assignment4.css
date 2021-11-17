@@ -1,0 +1,44 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #E9E9E9;
+}
+fieldset {
+  border: 2px ridge #9CA23D;
+  padding-top: 2px;
+  padding-left: 3em;
+  padding-right: 3em;
+  max-width: 1000px;
+}
+h1 {
+  margin-bottom: 0;
+}
+p {
+  font-family: verdana, sans-serif;
+  font-size: .85em;
+}
+label {
+  font-family: sans-serif;
+}
+hr {
+  background-color:  #9CA23D;
+}
+h2, h3 {
+  color: #5A5A5B;
+  font-family: Georgia, sans-serif;
+  text-align: center;
+}
+h4 {
+  border: 1px solid  #9CA23D;
+  background-color:  #9CA23D;
+
+}
+h5 {
+  text-align: center;
+  color: #5A5A5B;
+}
+#endNote{
+  text-align: center;
+  font-style: italic;
+  font-size: .75em;
+}
